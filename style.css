@@ -640,7 +640,7 @@ footer {
 
 .shape--1 {
     top: 15vh;
-    left: 50%;
+    left: 45vw;
     filter: invert(93%) sepia(0%) saturate(157%) hue-rotate(139deg) brightness(86%) contrast(85%);
 }
 
@@ -676,7 +676,7 @@ footer {
 
 .shape--7 {
     top: 80vh;
-    left: 50%;
+    left: 45vw;
     filter: invert(93%) sepia(0%) saturate(157%) hue-rotate(139deg) brightness(86%) contrast(85%);
 }
 
@@ -733,7 +733,11 @@ footer {
     .modal__half {
         padding: 40px;
     }
-    .shape {
+    .shape--3,
+    .shape--5 {
         display: none;
+    }
+    .shape {
+        position: absolute;
     }
 }
