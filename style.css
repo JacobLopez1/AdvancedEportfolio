@@ -733,6 +733,9 @@ footer {
     .modal__half {
         padding: 40px;
     }
+    .scroll__icon {
+        bottom: 0;
+    }
     .shape--3,
     .shape--5 {
         display: none;
