@@ -635,7 +635,7 @@ footer {
 
 .shape--0 {
     top: 15vh;
-    left: 10%;
+    left: 10vw;
 }
 
 .shape--1 {
@@ -646,13 +646,13 @@ footer {
 
 .shape--2 {
     top: 15vh;
-    left: 90%;
+    left: 80vw;
     filter: invert(53%) sepia(3%) saturate(6326%) hue-rotate(358deg) brightness(109%) contrast(80%);
 }
 
 .shape--3 {
     top: 50vh;
-    left: 10%;
+    left: 10vw;
     filter: invert(93%) sepia(0%) saturate(157%) hue-rotate(139deg) brightness(86%) contrast(85%);
 }
 
@@ -664,13 +664,13 @@ footer {
 
 .shape--5 {
     top: 50vh;
-    left: 90%;
+    left: 80vw;
     filter: invert(93%) sepia(0%) saturate(157%) hue-rotate(139deg) brightness(86%) contrast(85%);
 }
 
 .shape--6 {
     top: 80vh;
-    left: 10%;
+    left: 10vw;
     filter: invert(53%) sepia(3%) saturate(6326%) hue-rotate(358deg) brightness(109%) contrast(80%);
 }
 
@@ -682,7 +682,7 @@ footer {
 
 .shape--8 {
     top: 80vh;
-    left: 90%;
+    left: 80vw;
 }
 
 /* Small Phones, tablets, large smart phones */
@@ -732,5 +732,8 @@ footer {
     }
     .modal__half {
         padding: 40px;
+    }
+    .shape {
+        display: none;
     }
 }
