@@ -1,5 +1,5 @@
 let contrastToggle = false;
-const scaleFactor = 1 / 20
+const scaleFactor = 1 / 5
 
 
 function moveBackground(event) {
@@ -11,7 +11,7 @@ function moveBackground(event) {
     const isOdd = i % 2 !== 0;
     const parityFactor = isOdd ? -1 : 1;
 
-    shapes[i].style.transform = `translate(${x * parityFactor}px, ${y * parityFactor}px)`
+    shapes[i].style.transform = `rotate(${(x + y) * parityFactor}deg)`
   }
 }
 
