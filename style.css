@@ -525,6 +525,7 @@ PROJECTS
 
 .project__img {
     width: 100%;
+    display: flex;
     transition: all 600ms ease;
 }
 
