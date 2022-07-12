@@ -227,7 +227,7 @@ LANDING
     width: 32px;
     height: 32px;
     font-size: 14px;
-    margin-right: 12px;
+    margin: 0 8px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -637,24 +637,24 @@ footer {
 
 .shape--0 {
     top: 15vh;
-    left: 10vw;
+    left: calc(15% - 25px);
 }
 
 .shape--1 {
     top: 15vh;
-    left: 45vw;
+    left: calc(50% - 25px);
     filter: invert(93%) sepia(0%) saturate(157%) hue-rotate(139deg) brightness(86%) contrast(85%);
 }
 
 .shape--2 {
     top: 15vh;
-    left: 80vw;
+    left: calc(85% - 25px);
     filter: invert(53%) sepia(3%) saturate(6326%) hue-rotate(358deg) brightness(109%) contrast(80%);
 }
 
 .shape--3 {
     top: 50vh;
-    left: 10vw;
+    left: calc(15% - 25px);
     filter: invert(93%) sepia(0%) saturate(157%) hue-rotate(139deg) brightness(86%) contrast(85%);
 }
 
@@ -666,25 +666,25 @@ footer {
 
 .shape--5 {
     top: 50vh;
-    left: 80vw;
+    left: calc(85% - 25px);
     filter: invert(93%) sepia(0%) saturate(157%) hue-rotate(139deg) brightness(86%) contrast(85%);
 }
 
 .shape--6 {
     top: 80vh;
-    left: 10vw;
+    left: calc(15% - 25px);
     filter: invert(53%) sepia(3%) saturate(6326%) hue-rotate(358deg) brightness(109%) contrast(80%);
 }
 
 .shape--7 {
     top: 80vh;
-    left: 45vw;
+    left: calc(50% - 25px);
     filter: invert(93%) sepia(0%) saturate(157%) hue-rotate(139deg) brightness(86%) contrast(85%);
 }
 
 .shape--8 {
     top: 80vh;
-    left: 80vw;
+    left: calc(85% - 25px);
 }
 
 /* Small Phones, tablets, large smart phones */
